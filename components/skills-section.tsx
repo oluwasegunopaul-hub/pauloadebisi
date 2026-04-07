@@ -5,41 +5,36 @@ const skillCategories = [
     icon: Globe,
     title: "Geospatial Tools",
     skills: [
-      { name: "ArcGIS", level: 90 },
-      { name: "QGIS", level: 88 },
-      { name: "ENVI", level: 80 },
-      { name: "Google Earth Engine", level: 85 },
-      { name: "PCI Geomatica", level: 75 },
+      "ArcGIS",
+      "QGIS",
+      "ENVI",
+      "Google Earth Engine",
+      "PCI Geomatica",
     ],
   },
   {
     icon: Code,
     title: "Web Development",
-    skills: [
-      { name: "HTML", level: 92 },
-      { name: "CSS", level: 88 },
-      { name: "JavaScript", level: 80 },
-      { name: "WordPress", level: 85 },
-    ],
+    skills: ["HTML", "CSS", "JavaScript", "WordPress", "React"],
   },
   {
     icon: Wrench,
     title: "Technical Skills",
     skills: [
-      { name: "Computer Hardware", level: 90 },
-      { name: "Software Maintenance", level: 88 },
-      { name: "Troubleshooting", level: 92 },
-      { name: "Networking Basics", level: 75 },
+      "Computer Hardware",
+      "Software Maintenance",
+      "Troubleshooting",
+      "Networking Basics",
     ],
   },
   {
     icon: FileSpreadsheet,
     title: "Other Tools",
     skills: [
-      { name: "Microsoft Word", level: 95 },
-      { name: "Microsoft Excel", level: 90 },
-      { name: "Microsoft PowerPoint", level: 92 },
-      { name: "Google Workspace", level: 88 },
+      "Microsoft Word",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Google Workspace",
     ],
   },
 ]
@@ -66,7 +61,7 @@ export function SkillsSection() {
               key={category.title}
               className="rounded-xl border border-border bg-card p-6 transition-shadow hover:shadow-md"
             >
-              <div className="mb-5 flex items-center gap-3">
+              <div className="mb-6 flex items-center gap-3">
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10">
                   <category.icon className="h-5 w-5 text-primary" />
                 </div>
@@ -75,23 +70,13 @@ export function SkillsSection() {
                 </h3>
               </div>
 
-              <div className="space-y-4">
+              <div className="flex flex-wrap gap-2">
                 {category.skills.map((skill) => (
-                  <div key={skill.name}>
-                    <div className="mb-1.5 flex items-center justify-between">
-                      <span className="text-sm font-medium text-foreground">
-                        {skill.name}
-                      </span>
-                      <span className="text-xs text-muted-foreground">
-                        {skill.level}%
-                      </span>
-                    </div>
-                    <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
-                      <div
-                        className="h-full rounded-full bg-primary transition-all duration-700"
-                        style={{ width: `${skill.level}%` }}
-                      />
-                    </div>
+                  <div
+                    key={skill}
+                    className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-4 py-2 text-sm font-medium text-foreground transition-all hover:border-primary/40 hover:bg-primary/10"
+                  >
+                    {skill}
                   </div>
                 ))}
               </div>
