@@ -23,7 +23,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <h3 className="font-heading text-lg font-semibold text-foreground">
-              Paulo Adebisi
+              Paul Adebisi
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
               {
