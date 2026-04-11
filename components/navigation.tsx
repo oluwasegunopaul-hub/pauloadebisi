@@ -39,7 +39,7 @@ export function Navigation() {
           href="#home"
           className="font-heading text-lg font-semibold text-foreground transition-colors hover:text-primary"
         >
-          {"Paulo Adebisi"}
+          {"Paul Adebisi"}
         </a>
 
         {/* Desktop Navigation */}
