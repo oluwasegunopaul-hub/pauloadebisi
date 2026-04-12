@@ -24,10 +24,11 @@ const experiences = [
   {
     role: "Board Member",
     organization: "CLAED, Ibadan",
-    period: "Ongoing",
+    period: "Previous",
     achievements: [
-      "Contributing to policy discussions on environmental development and sustainability.",
-      "Supporting capacity building programs for youth in climate and environment sectors.",
+      "Developed a user-friendly website, enhancing online presence for the organization. ",
+      "Led the STEM team in developing comprehensive computer training curriculum, promoting innovation and 
+high-quality education. ",
     ],
   },
   {
