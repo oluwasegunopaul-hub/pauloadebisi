@@ -43,6 +43,9 @@ export const metadata: Metadata = {
     description:
       "Transforming spatial data into meaningful insights. Portfolio showcasing geospatial analysis, web development, and technical projects.",
   },
+icons: {
+    icon: '/favicon.ico', 
+  },
 }
 
 export const viewport: Viewport = {
