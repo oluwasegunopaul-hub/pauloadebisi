@@ -12,7 +12,7 @@ const quickLinks = [
 const socialLinks = [
   { icon: Linkedin, label: "LinkedIn", href: "#" },
   { icon: Github, label: "GitHub", href: "#" },
-  { icon: Twitter, label: "X (Twitter)", href: "#" },
+  { icon: Twitter, label: "X (Twitter)", href: "https://x.com/PAULOADEBISI" },
 ]
 
 export function Footer() {
