@@ -43,8 +43,10 @@ export const metadata: Metadata = {
     description:
       "Transforming spatial data into meaningful insights. Portfolio showcasing geospatial analysis, web development, and technical projects.",
   },
-icons: {
-    icon: '/favicon.ico', 
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
   },
 }
 
@@ -66,7 +68,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={`${_inter.variable} ${_poppins.variable} font-sans antialiased`}
-        suppressHydrationWarning
+        suppressionHydrationWarning
       >
         <ThemeProvider
           attribute="class"
