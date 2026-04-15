@@ -21,15 +21,7 @@ const experiences = [
       "Collaborated with senior researchers on spatial modeling and GIS database management.",
     ],
   },
-  {
-    role: "Board Member",
-    organization: "CLAED, Ibadan",
-    period: "Previous",
-    achievements: [
-      "Developed a user-friendly website, enhancing online presence for the organization. ",
-      "Led the STEM team in developing comprehensive computer training curriculum, promoting innovation and high-quality education.",
-    ],
-  },
+ 
   {
     role: "Computer Technician",
     organization: "Femtun Technology Nig Ltd",
