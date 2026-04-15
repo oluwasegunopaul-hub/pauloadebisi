@@ -26,7 +26,7 @@ const experiences = [
     organization: "CLAED, Ibadan",
     period: "Previous",
     achievements: [
-      "Developed a user-friendly website, enhancing online presence for the organization. ",
+      "Developed a user-friendly website, enhancing online presence for the organization.",
       "Led the STEM team in developing comprehensive computer training curriculum, promoting innovation and high-quality education.",
     ],
   },
