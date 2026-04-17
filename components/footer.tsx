@@ -12,7 +12,7 @@ const quickLinks = [
 const socialLinks = [
   { icon: Linkedin, label: "LinkedIn", href: "#" },
   { icon: Github, label: "GitHub", href: "#" },
-  { icon: Twitter, label: "X (Twitter)", href: "https://x.com/PAULOADEBISI" },
+  { icon: Twitter, label: "X (Twitter)", href: "#" },
 ]
 
 export function Footer() {
@@ -50,26 +50,25 @@ export function Footer() {
             </div>
           </div>
 
-         {/* Social */}
-<div>
-  <h4 className="mb-4 text-sm font-semibold text-foreground">
-    Connect
-  </h4>
-  <div className="flex items-center gap-2">
-    {socialLinks.map((social) => (
-      <a
-        key={social.label}
-        href={social.href}
-        target="_blank"             // Opens in a new tab
-        rel="noopener noreferrer"   // Security best practice
-        className="flex h-9 w-9 items-center justify-center rounded-lg border border-border text-muted-foreground transition-colors hover:border-primary/30 hover:text-primary"
-        aria-label={social.label}
-      >
-        <social.icon className="h-4 w-4" />
-      </a>
-    ))}
-  </div>
-</div>
+          {/* Social */}
+          <div>
+            <h4 className="mb-4 text-sm font-semibold text-foreground">
+              Connect
+            </h4>
+            <div className="flex items-center gap-2">
+              {socialLinks.map((social) => (
+                <a
+                  key={social.label}
+                  href={social.href}
+                  className="flex h-9 w-9 items-center justify-center rounded-lg border border-border text-muted-foreground transition-colors hover:border-primary/30 hover:text-primary"
+                  aria-label={social.label}
+                >
+                  <social.icon className="h-4 w-4" />
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
 
         {/* Bottom Bar */}
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-border pt-6 md:flex-row">
