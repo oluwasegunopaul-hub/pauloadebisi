@@ -24,7 +24,7 @@ const experiences = [
   {
     role: "Board Member",
     organization: "CLAED, Ibadan",
-    period: "Previous",
+    period: "Ongoing",
     achievements: [
       "Developed a user-friendly website, enhancing online presence for the organization.",
       "Led the STEM team in developing comprehensive computer training curriculum, promoting innovation and high-quality education.",

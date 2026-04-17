@@ -43,11 +43,6 @@ export const metadata: Metadata = {
     description:
       "Transforming spatial data into meaningful insights. Portfolio showcasing geospatial analysis, web development, and technical projects.",
   },
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
-  },
 }
 
 export const viewport: Viewport = {
@@ -57,6 +52,9 @@ export const viewport: Viewport = {
   ],
   width: "device-width",
   initialScale: 1,
+  icons: {
+    icon: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({
@@ -68,7 +66,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={`${_inter.variable} ${_poppins.variable} font-sans antialiased`}
-        suppressionHydrationWarning
+        suppressHydrationWarning
       >
         <ThemeProvider
           attribute="class"
