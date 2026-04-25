@@ -45,7 +45,7 @@ const projects: {
   {
     title: "Femtun Nigeria",
     description:
-      "Designed and developed a professional website for Femtun, delivering a responsive and user-friendly experience with modern web technologies.",
+      "Designed and deployed a corporate website for a renewable energy and tech service company, creating a user-friendly platform that showcases their solar, CCTV, and computer repair services while enhancing their digital footprint and client engagement.",
     image: "/images/projects/femtun.jpg",
     tools: ["HTML", "CSS", "JavaScript", "WordPress"],
     category: "Web Development",
@@ -54,7 +54,7 @@ const projects: {
   {
     title: "Primrose Den",
     description:
-      "Built a polished, responsive website for Primrose Den, featuring elegant design, optimized performance, and seamless navigation.",
+      "Designed and deployed a professional corporate website for Primrose Den Partners, creating an authoritative and structured platform that effectively showcases the firm's diverse legal services, attorney profiles, and industry publications to prospective clients.",
     image: "/images/projects/primroseden.jpg",
     tools: ["HTML", "CSS", "JavaScript", "WordPress"],
     category: "Web Development",
@@ -63,11 +63,20 @@ const projects: {
   {
     title: "CLAED.org",
     description:
-      "Developed a website for CLAED (Centre for Leadership, Advocacy, Education & Development), a community-focused organization. This project is now archived.",
+      "Developed a website for CLAED (Circles for Leadership and Educational Development), a community-focused organization. This project is now archived.",
     image: "/images/projects/claed.jpg",
     tools: ["HTML", "CSS", "JavaScript", "WordPress"],
     category: "Web Development",
     archived: true,
+  },
+  {
+    title: "Samuel Akande Portfolio",
+    description:
+      "I designed and deployed a responsive, comprehensive digital portfolio and research lab hub for a Senior Climate Scientist, organizing complex academic credentials, publications, and climate science expertise into a clean, accessible platform optimized for international collaboration.",
+    image: "/images/projects/samuelakande.jpg",
+    tools: ["HTML", "CSS", "JavaScript", "React", "Responsive Design"],
+    category: "Web Development",
+    link: "https://samuelakande.com",
   },
 ]
 
