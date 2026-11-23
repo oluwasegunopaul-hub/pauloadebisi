@@ -19,9 +19,9 @@ const contactInfo = [
 ]
 
 const socialLinks = [
-  { icon: Linkedin, label: "LinkedIn", href: "#" },
-  { icon: Github, label: "GitHub", href: "#" },
-  { icon: Twitter, label: "X (Twitter)", href: "#" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/paul-adebisi-773b5bb6/" },
+  { icon: Github, label: "GitHub", href: "https://github.com/oluwasegunopaul-hub" },
+  { icon: Twitter, label: "X (Twitter)", href: "https://x.com/PAULOADEBISI" },
 ]
 
 export function ContactSection() {
